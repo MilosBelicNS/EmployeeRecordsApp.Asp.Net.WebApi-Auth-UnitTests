@@ -1,0 +1,2 @@
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csprojAssemblyReference.cache
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csproj.CoreCompileInputs.cache
