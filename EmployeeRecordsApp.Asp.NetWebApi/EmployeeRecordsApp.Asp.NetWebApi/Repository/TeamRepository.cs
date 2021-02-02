@@ -22,10 +22,10 @@ namespace EmployeeRecordsApp.Asp.NetWebApi.Repository
 
             List<Team> result = new List<Team>();
 
-            result.Add(teams.ElementAt(0));
-            result.Add(teams.ElementAt(1));
+            result.Add(teams.ToList()[0]);
+            result.Add(teams.ToList()[1]);
 
-            return result;
+             return result;
 
         }
 

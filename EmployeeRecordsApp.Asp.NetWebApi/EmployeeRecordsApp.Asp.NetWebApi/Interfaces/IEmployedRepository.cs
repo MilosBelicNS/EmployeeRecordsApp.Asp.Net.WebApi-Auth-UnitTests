@@ -10,7 +10,7 @@ namespace EmployeeRecordsApp.Asp.NetWebApi.Interfaces
    public  interface IEmployedRepository
     {
         IEnumerable<Employed> GetAll();
-        IEnumerable<Employed> GetByBirth();
+        IEnumerable<Employed> GetByBirth(int associated);
         IEnumerable<Employed> Search(Filter filter);
         Employed GetById(int id);
         void Create(Employed employed);

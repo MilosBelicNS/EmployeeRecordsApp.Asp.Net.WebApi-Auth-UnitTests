@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
+using EmployeeRecordsApp.Asp.NetWebApi.Interfaces;
+using EmployeeRecordsApp.Asp.NetWebApi.Repository;
 using Microsoft.Owin.Security.OAuth;
+using Microsoft.Practices.Unity;
 using Newtonsoft.Json.Serialization;
+using ProductService.Resolver;
 
 namespace EmployeeRecordsApp.Asp.NetWebApi
 {
@@ -25,6 +29,13 @@ namespace EmployeeRecordsApp.Asp.NetWebApi
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //UnityDependency IOC
+            var container = new UnityContainer();
+            container.RegisterType<ITeamRepository, TeamRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IEmployedRepository, EmployedRepository>(new HierarchicalLifetimeManager());
+            config.DependencyResolver = new UnityResolver(container);
+
         }
     }
 }
