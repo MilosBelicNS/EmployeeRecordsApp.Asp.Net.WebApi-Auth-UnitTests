@@ -62,7 +62,6 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\Empl
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\System.Web.Http.Owin.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csprojAssemblyReference.cache
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csproj.CoreCompileInputs.cache
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csproj.CopyComplete
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.dll
@@ -125,5 +124,9 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\Empl
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.Configuration.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Owin.Cors.dll
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\System.Web.Cors.dll
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\bin\Microsoft.Owin.Cors.xml
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csprojAssemblyReference.cache
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.Migrations.Initial.resources
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi\obj\Debug\EmployeeRecordsApp.Asp.NetWebApi.csproj.GenerateResource.cache

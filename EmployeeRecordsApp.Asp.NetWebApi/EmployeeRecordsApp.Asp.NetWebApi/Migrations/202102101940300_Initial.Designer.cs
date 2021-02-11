@@ -13,7 +13,7 @@ namespace EmployeeRecordsApp.Asp.NetWebApi.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202102021154424_Initial"; }
+            get { return "202102101940300_Initial"; }
         }
         
         string IMigrationMetadata.Source
