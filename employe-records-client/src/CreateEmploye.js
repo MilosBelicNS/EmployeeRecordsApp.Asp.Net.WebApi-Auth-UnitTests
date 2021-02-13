@@ -10,7 +10,7 @@ class CreateEmploye extends Component {
             name: "",
             role: "",
             birth: "",
-            emloyementYear:"",
+            employmentYear:"",
             salary: "",
             team: "",
             teams: [],//deklaracija selekta, dropdown
@@ -19,6 +19,15 @@ class CreateEmploye extends Component {
 
         this.handleSelectChange = this.handleSelectChange.bind(this);
        
+    }
+
+    handleCancel = () => {
+        this.setState({name: "",
+        role: "",
+        birth: "",
+        employmentYear:"",
+        salary: "",
+        team: ""})
     }
 
 
@@ -33,7 +42,7 @@ class CreateEmploye extends Component {
                 Role: this.state.role,
                 Name: this.state.name,
                 Birth: this.state.birth,
-                EmploymentYear: this.state.emloyementYear,
+                EmploymentYear: this.state.employmentYear,
                 Salary: this.state.salary,
                 
             }
@@ -58,7 +67,7 @@ class CreateEmploye extends Component {
    
 
     componentDidMount() {
-        fetch("https://localhost:44311/api/Employee/", { method: "GET" })
+        fetch("https://localhost:44311/api/Teams/", { method: "GET" })
             .then(response => response.json())
             .then(data => {
                 console.log(this.state.team)
@@ -70,13 +79,13 @@ class CreateEmploye extends Component {
 
     render() {
         
-        const options = this.state.teams.map(x => <option value={x.Id} key={x.Id} className="form-control"> {x.Team.Name} </option>)
+        const options = this.state.teams.map(x => <option value={x.Id} key={x.Id} className="form-control"> {x.Name} </option>)
 
       
         return (
 
             
-             <div class="col-sm-offset-4 col-sm-4" style={{marginLeft:'10%'}}>
+             <div className="col-sm-offset-4 col-sm-4" style={{marginLeft:'10%'}}>
             
                 <form className="form-group" style={{ marginTop: "50px" }}>
                     <h5 style={{ backgroundColor:'darkslategray', color:'orange', textAlign:'center'}}>Add employe</h5>

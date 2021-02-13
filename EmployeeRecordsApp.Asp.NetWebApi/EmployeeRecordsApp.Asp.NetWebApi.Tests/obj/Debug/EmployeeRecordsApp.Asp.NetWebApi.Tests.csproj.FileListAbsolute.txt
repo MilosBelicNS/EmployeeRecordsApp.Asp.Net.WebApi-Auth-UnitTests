@@ -71,3 +71,6 @@ D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\Empl
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\Microsoft.Owin.Cors.dll
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\System.Web.Cors.dll
+D:\Software development\C Sharp Practice\ASP.NET WEB API\EmployeeRecordsApp\EmployeeRecordsApp.Asp.NetWebApi\EmployeeRecordsApp.Asp.NetWebApi.Tests\bin\Debug\Microsoft.Owin.Cors.xml

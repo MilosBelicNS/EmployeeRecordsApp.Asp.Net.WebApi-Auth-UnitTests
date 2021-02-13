@@ -12,9 +12,34 @@ class TableIn extends Component {
             data: [],
             isLoading: true,
             property: "",
+            min: "",
+            max: ""
             
 
         }
+    }
+
+    handleChange = (event) => {
+        const { value, name } = event.target
+        this.setState({ [name]: value })
+    }//setuj vrednost za input u formi
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        axios("https://localhost:44311/api/Search/", {
+            method: "POST",
+            headers: { Authorization: "Bearer " + sessionStorage.getItem("token") },
+            data: {
+                Min :this.state.min,
+                Max: this.state.max
+            }
+        })
+        .then(object => {
+            this.setState({
+                data: object.data
+            })
+            this.setState({ isLoading: false })
+        })
     }
 
     componentDidMount() {
@@ -30,10 +55,9 @@ class TableIn extends Component {
     }
 
     handleClick = (event) => { 
-
-        axios("https://localhost:44311//api/Employee" + event.target.name, {
+        axios("https://localhost:44311/api/Employee/" + event.target.name, {
             method: "DELETE",
-            headers: { Authorization: "Bearer " + this.state.token }
+            headers: { Authorization: "Bearer " + sessionStorage.getItem("token") }
         })
             .then(() => { window.location.reload() }) 
              
@@ -66,8 +90,8 @@ class TableIn extends Component {
                                          type="number"
                                          placeholder="From quadrature"
                                          className="form-inline"
-                                         name="fromQuad"
-                                         value={this.state.quadrature}
+                                         name="min"
+                                         value={this.state.min}
                                          onChange={this.handleChange}
                                 />
                            
@@ -80,14 +104,14 @@ class TableIn extends Component {
                                         type="number"
                                         placeholder="To quadrature"
                                         className="form-inline"
-                                        name="toQuad"
-                                        value={this.state.quadrature}
+                                        name="max"
+                                        value={this.state.max}
                                         onChange={this.handleChange}
                                />
                           
                           
                                <br />
-                               <button type="submit" className="btn btn-warning"style={{backgroundColor:'orange'}} >Search</button>
+                               <button type="submit" className="btn btn-warning"style={{backgroundColor:'orange'}} onClick={this.handleSubmit} >Search</button>
                            
                           </form>
                      </div>
